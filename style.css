@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.left-content {
+    width: 30%; 
+    overflow: auto;
+    height: 100vh;
+    padding: 20px;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    overflow: auto;
+    height: 100vh;
+    width: 70%; 
+    line-height: 1.6; 
+    font-size: 16px; 
+}
+
+.ayat-item {
+    margin-bottom: 20px; 
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.ayat-arab {
+    font-size: 40px;
+    text-align: right; 
+}
+
+.basmalah {
+    text-align: center;
+}
+
+.ltn {
+    color: #45a049;
+}
+
+.menu-item {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    max-width: 140px;
+    border-radius: 5px;
+    margin: 10px auto;
+    overflow: auto;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.menu-item:hover {
+    background-color: #45a049;
+}
+
+h1 {
+    text-align: center;
+}
+
+.surah-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.surah-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.surah-item:hover {
+    background-color: #ddd;
+}
